@@ -15,6 +15,16 @@ resource "aws_instance" "TFexam-b2_storageserver" {
   }
   user_data = file("./resource/user_data.txt")
 
+  provisioner "file" {
+    source      = "./resource/uploads3"
+    destination = "/home/ec2-user"
+    connection {
+      type        = "ssh"
+      user        = "ec2-user"
+      private_key = file("~/.ssh/techmaster_privatekey")
+      host        = aws_instance.TFexam-b2_storageserver.public_ip
+    }
+  }
 
   tags = {
     Name = "TFexam-b2_storageserver"
