@@ -1,9 +1,7 @@
 # create sudoer user "cloud_user" and add to sudoers
-#with password "yx4k"
 # create user
 
 useradd -m -s /bin/bash digitalocean
-echo "digitalocean:yx4k" | chpasswd
 usermod -aG sudo digitalocean
 
 # add public key from "C:\GDrive\Study\AWS\Key\techmaster_key.pub" to digitalocean
