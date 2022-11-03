@@ -6,7 +6,6 @@ Mô hình :
 
 ### Link Video: https://www.youtube.com/watch?v=RdbQSaG6gUE
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=RdbQSaG6gUE)
 
 ### Mô tả: 
     Mô hình tạo  :
