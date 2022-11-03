@@ -15,5 +15,5 @@
 ### Kết quả:
 - Từ giao diẹn website có thể update file, và file đã được lưu trữ trên S3
 
-![](resource/bai2.jpg)
 
+![](resource/bai2.jpg)
