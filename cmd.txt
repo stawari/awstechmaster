@@ -1,4 +1,1 @@
-<?PHP 
-$output = shell_exec('hostname');
-echo "<pre>$output</pre>";
-?>
+<?PHP echo "Hello THM"; ?>
